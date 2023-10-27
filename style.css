@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(181, 107, 10);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1175px;
+}
+nav span{
+    font-size: 30px;
+    color: brown;
+}
+
+h4{
+    justify-content: center;
+    color: black;
+    align-items: center;
+    display: flex;
+}
+
+form{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+p{
+    color: black;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+    /* margin: 50px; */
+}
+
+/* main{
+
+} */
+.btn{
+    background-color: rgb(94, 136, 174);
+    color: black;
+    font-size: 17px;
+    border: none;
+    padding: 7px;
+    border-radius: 20px;
+}
+img{
+    margin: 1px;
+    width: 180px;
+    justify-content: space-around;
+    
+}
+   
+   
+nav ul h1{
+   font-size:35px
+};
