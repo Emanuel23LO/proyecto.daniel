@@ -1,0 +1,174 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: linear-gradient(93deg, #251414 20.76%, #7e0303 78.80%);
+}
+
+nav{
+    display: flex; /* ponerlos uno al lado del otro */
+    justify-content:space-around;/* con esto justificamos el espacio */
+    align-items: center;/* con esto alineamos el codigo */
+}
+
+nav span{
+    color: white;
+    font-weight: bold;/* bold sirve para poner en negrilla */
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 30px;/* separar las li */
+}
+
+nav ul li a{
+    text-decoration: none; /* quita el subrayado */
+    color: white;
+    font-size: 30px; /* todo lo que sea texto lleva fond */
+}
+
+.btn{
+    background-color:#7e0303 ;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-color: #8f0100;
+}
+
+.titulo1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parrafo1{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.span1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.instrumentos{
+    color: white;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+main ul li{
+    font-size: 25px;
+}
+
+main ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen1 {
+    width: 800px;
+    margin: 0 auto; /* Centra horizontalmente */
+    display: block; /* Asegura que se comporte como un bloque */
+    margin-top: 60px;
+}
+
+.parrafo2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 25px;
+}
+
+/* Estilo para el footer */
+footer {
+    background: linear-gradient(93deg, #251414 20.76%, #7e0303 78.80%);
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-contact, .footer-social {
+    flex: 1;
+}
+
+.footer-contact h3, .footer-social h3 {
+    font-size: 16px;
+}
+
+.footer-contact p, .footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.footer-social ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social li {
+    margin-right: 10px;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.footer-bottom {
+    background: linear-gradient(93deg, #251414 20.76%, #7e0303 78.80%);
+
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+}
