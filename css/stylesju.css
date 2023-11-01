@@ -60,7 +60,7 @@ footer{
   top: 2;
   left: 0;
   right: 0;
-  bottom: 2;
+  bottom: 3;
 }
 
 footer div{
@@ -140,3 +140,10 @@ footer div ul li {
    padding-right: 80px;
 }
 
+.ico img{
+   width: 30%;
+}
+
+.icon-img{
+   display: flex;
+}
