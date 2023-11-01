@@ -38,6 +38,11 @@ nav ul li a{
    border-color: #8f0100;
    font-size: 25px;
 }
+.btn a{
+   text-decoration: none;
+   color: white;
+   font-size: 25px;
+}
 
 
 .btn a {

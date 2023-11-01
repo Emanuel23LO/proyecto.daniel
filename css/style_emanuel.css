@@ -49,6 +49,11 @@ p{
     border-radius: 20px;
     border-color: aliceblue;
 }
+.btn a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
 img{
     margin: 1px;
     width: 180px;
