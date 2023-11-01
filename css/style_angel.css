@@ -36,16 +36,17 @@ nav ul li a{
 .btn{
    background-color:#7e0303 ;
    border-color: #8f0100;
+   font-size: 25px;
 }
 
-.btn a{
+
+.btn a {
    text-decoration: none;
    color: white;
    font-size: 25px;
    font-family: 'Roboto', sans-serif;
 }
-
-.titulo1{
+nav button{
    display: flex;
    align-items: center;
    justify-content: center;
@@ -55,7 +56,7 @@ nav ul li a{
    font-family: 'Roboto', sans-serif;
 }
 
-.titulo2{
+span{
    display: flex;
    justify-content: center;
    margin-top: 30px;
@@ -102,77 +103,46 @@ main h1{
    align-items: center;
 }
 
-.imagen1 {
-   width: 800px;
-   margin: 0 auto; /* Centra horizontalmente */
-   display: block; /* Asegura que se comporte como un bloque */
-   margin-top: 60px;
-}
-
-.parrafo2{
+img{
    display: flex;
-   justify-content: center;
-   margin-top: 20px;
-   margin-bottom: 100px;
-   color: white;
-   font-size: 25px;
-}
-
-/* Estilo para el footer */
-footer {
-   background: linear-gradient(93deg, #251414 20.76%, #7e0303 78.80%);
-   color: #ffffff;
-   padding: 20px 0;
-}
-
-.footer-content {
-   display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: center;
-   padding: 0 20px;
+   width: 130px;
+   border-radius: 30px;
 }
 
-.footer-logo img {
-   width: 100px;
-   height: auto;
-}
-
-.footer-contact, .footer-social {
-   flex: 1;
-}
-
-.footer-contact h3, .footer-social h3 {
-   font-size: 16px;
-}
-
-.footer-contact p, .footer-social ul {
+h2{
+   font-size: 10px;
    list-style: none;
-   padding: 0;
 }
 
-.footer-contact p {
-   margin: 5px 0;
-}
-
-.footer-social ul {
-   display: flex;
-   justify-content: space-between;
-}
-
-.footer-social li {
-   margin-right: 10px;
-}
-
-.footer-social a {
+ul{
+   list-style: none;
    text-decoration: none;
-   color: #ffffff;
-   font-weight: bold;
+   color: white;
 }
 
-.footer-bottom {
-   background: linear-gradient(93deg, #251414 20.76%, #7e0303 78.80%);
+p{
+   font-size: 20px;
+   color: white;
+}
 
+div p{
+   font-size: 30px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
    text-align: center;
-   padding: 10px 0;
-   font-size: 12px;
+   color: white;
+   margin-right: 100px;
+   margin-left: 100px;
+}
+
+main ul li h2{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-size: 15px;
+   text-align: center;
+   margin-right: 5px;
 }
