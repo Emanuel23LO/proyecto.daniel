@@ -83,8 +83,9 @@ footer div ul li {
 
  .dv-2{
    display: flex;
-    padding-left: 180px;
-    margin-top: 50px;
+   justify-content: center ;  
+   align-items: center;  
+   margin-top: 50px;
     padding-bottom: 85px;
 
  }
@@ -132,7 +133,7 @@ footer div ul li {
     margin-top: 40px;
     width: 25%;
     text-align: center;
-    padding-left: 480px;
+    padding-left: 400px;
  }
 
 #iz{
